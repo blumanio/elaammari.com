@@ -6,11 +6,15 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+import { LeftSection, Picture } from "./HeroStyles";
+import medlique from "../../constants/constants";
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
+      <Picture>
+        
+      </Picture>
       <SectionTitle main center>
         Hi! I'am Mohamed and I'am a Front-end Developer
       </SectionTitle>
