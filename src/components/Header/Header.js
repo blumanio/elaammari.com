@@ -21,7 +21,7 @@ const Header = () => (
           style={{
             display: "flex",
             alignItems: "center",
-            color: "white",
+            color: "#000000",
             marginBottom: "20px",
           }}
         >
