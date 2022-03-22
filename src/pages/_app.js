@@ -1,13 +1,20 @@
-import Theme from '../styles/theme';
-import ReactGA from "react-ga"
-import { useEffect } from 'react';
+import Theme from "../styles/theme";
+import { useEffect } from "react";
+import * as ga from "../lib/analytics";
+import { useRouter } from "next/router";
 
 export default function App({ Component, pageProps }) {
+  const router = useRouter();
+
   useEffect(() => {
-    ReactGA.initialize('G-PN4VRFQVWV');
-    //G-PN4VRFQVWV
-    ReactGA.pageview(window.location.pathname + window.location.search)
-    },[]);
+    const handleRouteChange = (url) => {
+      ga.pageview(url);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
+    return () => {
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
   return (
     <>
       <Theme>
@@ -16,4 +23,3 @@ export default function App({ Component, pageProps }) {
     </>
   );
 }
- 
