@@ -18,17 +18,17 @@ const Footer = () => {
   return (
     <FooterWrapper>
       <LinkList>
-        <LinkColumn>
+        {/* <LinkColumn>
           <LinkTitle>Call-Me</LinkTitle>
           <LinkItem href="tel:00393891969024"> 3891969024</LinkItem>
-        </LinkColumn>
-        <LinkColumn>
+        </LinkColumn> */}
+        {/* <LinkColumn>
           <LinkTitle>E-mail</LinkTitle>
           <LinkItem href="mailto:mohamed@elaammari.com">
             {" "}
             mohamed@elaammari.com
           </LinkItem>
-        </LinkColumn>
+        </LinkColumn> */}
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>

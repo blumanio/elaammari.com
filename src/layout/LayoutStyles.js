@@ -4,22 +4,32 @@ export const Container = styled.div`
   //   max-width: 1280px;
   width: 100%;
   margin: auto;
-  background: red;
 `;
 export const Videobackground = styled.div`
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   position: absolute;
-  top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
+  width: 100%;
+  overflow: hidden;
 `;
 
 export const Videowrapper = styled.div`
-  border: 2px solid #000;
-  width: 300px;
-  height: 300px;
-  position: relative;
+  //   border: 2px solid #000;
+  width: 99%;
   overflow: hidden;
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
 `;
+
+// position: absolute;
+// top: 0;
+// left: 0;
+// width: 100%;
+// height: 100%;
+// object-fit: cover;

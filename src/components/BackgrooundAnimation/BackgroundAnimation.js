@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const BackgroundAnimation = () => (
   <div>
-    <svg
+    {/* <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
       fill="none"
@@ -358,7 +358,7 @@ const BackgroundAnimation = () => (
           <stop offset="1" stopColor="#13ADC7" stopOpacity="0" />
         </linearGradient>
       </defs>
-    </svg>
+    </svg> */}
   </div>
 );
 

@@ -8,23 +8,21 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection, Picture } from "./HeroStyles";
 import medlique from "../../constants/constants";
-  //background: linear-gradient(121.57deg, #000000 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
+//background: linear-gradient(121.57deg, #000000 18.77%, rgba(255, 255, 255, 0.66) 60.15%);
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
-      <Picture>
-
-      </Picture>
+      {/* <Picture></Picture> */}
       <SectionTitle main center>
-        Hi! I'am Mohamed 
+        Hi! I'am Mohamed Momo
       </SectionTitle>
-      <SectionText>
-      I'am a Front-end Developer VTEX, I love building and learning new things.
-      </SectionText>
-      <Button onClick={() => (window.location = "mailto:mohamed@elaammari.com")}>
+      <SectionText>I hike and make videos.</SectionText>
+      {/* <Button
+        onClick={() => (window.location = "mailto:mohamed@elaammari.com")}
+      >
         contact me
-      </Button>
+      </Button> */}
     </LeftSection>
   </Section>
 );
