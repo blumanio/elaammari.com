@@ -16,7 +16,7 @@ import {
 const Header = () => (
   <Container>
     <Div1>
-      <Link href="/">
+      {/* <Link href="/">
         <a
           style={{
             display: "flex",
@@ -28,7 +28,7 @@ const Header = () => (
           <DiCssdeck size="3rem" />
           <Span>Portfolio</Span>
         </a>
-      </Link>
+      </Link> */}
     </Div1>
     {/* <Div2>
       <li>
