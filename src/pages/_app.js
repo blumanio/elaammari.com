@@ -2,6 +2,7 @@ import Theme from "../styles/theme";
 import { useEffect } from "react";
 import * as ga from "../lib/analytics";
 import { useRouter } from "next/router";
+import { Alkatra } from "next/font/google";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();

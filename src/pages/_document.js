@@ -31,7 +31,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en-GB">
         <Head>
-          <title>Moel | Mohamed El Aammari</title>
+          <title>Mohamed El Aammari</title>
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-PN4VRFQVWV`}

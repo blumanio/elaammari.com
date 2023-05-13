@@ -1,6 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import {
+  // AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillYoutube,
+} from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -15,8 +20,8 @@ import {
 
 const Header = () => (
   <Container>
-    <Div1>
-      {/* <Link href="/">
+    {/* <Div1>
+      <Link href="/">
         <a
           style={{
             display: "flex",
@@ -26,31 +31,34 @@ const Header = () => (
           }}
         >
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+        <Span>Portfolio</Span>
         </a>
-      </Link> */}
-    </Div1>
-    {/* <Div2>
+      </Link>
+    </Div1> */}
+    <Div2>
       <li>
         <Link href="#projects">
-          <NavLink> Projects</NavLink>
+          <NavLink> FILMS</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#technologies">
-          <NavLink>Technologies</NavLink>
+          <NavLink>ITINERARY</NavLink>
         </Link>
       </li>
       <li>
         <Link href="#about">
-          <NavLink>About</NavLink>
+          <NavLink>GEAR</NavLink>
         </Link>
       </li>
-    </Div2> */}
+    </Div2>
     <Div3>
       <SocialIcons href="https://github.com/blumanio" target="_blank">
-        <AiFillGithub size="3rem" />
+        <AiFillYoutube size="3rem" />
       </SocialIcons>
+      {/* <SocialIcons href="https://github.com/blumanio" target="_blank">
+        <AiFillGithub size="3rem" />
+      </SocialIcons> */}
       <SocialIcons
         href="https://www.linkedin.com/in/mohamedelaammari/"
         target="_blank"

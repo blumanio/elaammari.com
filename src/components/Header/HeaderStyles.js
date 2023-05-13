@@ -2,6 +2,7 @@ import { IoIosArrowDropdown } from "react-icons/io";
 import styled from "styled-components";
 
 export const Container = styled.div`
+  position: relative;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
@@ -10,11 +11,15 @@ export const Container = styled.div`
   padding-top: 2rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 30px);
-    grid-column-gap: 0.5rem;
-    grid-row-gap: 0.5rem;
+    // display: grid;
+    // grid-template-columns: repeat(5, 1fr);
+    // grid-template-rows: repeat(1, 30px);
+    // grid-column-gap: 0.5rem;
+    // grid-row-gap: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    margin: 0;
   }
 `;
 export const Span = styled.span`
@@ -45,6 +50,7 @@ export const Div3 = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
+    display: none;
   }
 `;
 

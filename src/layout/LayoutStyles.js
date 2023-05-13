@@ -18,15 +18,10 @@ export const Videobackground = styled.div`
 
   display: flex;
   justify-content: space-around;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    margin: 2rem;
-    padding: 2rem;
-    background: blue;
-  }
+
   @media ${(props) => props.theme.breakpoints.md} {
     margin: 0rem;
     padding: 0rem;
-    background: red;
   }
 `;
 
