@@ -15,9 +15,9 @@ const Hero = (props) => (
     <LeftSection>
       {/* <Picture></Picture> */}
       <SectionTitle main center>
-        Hi! I'am Mohamed Momo
+        Mohamed El Aammari
       </SectionTitle>
-      <SectionText>I hike and make videos.</SectionText>
+      <SectionText>ADVENTUROUS FILM MAKER.</SectionText>
       {/* <Button
         onClick={() => (window.location = "mailto:mohamed@elaammari.com")}
       >
