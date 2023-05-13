@@ -15,6 +15,19 @@ export const Videobackground = styled.div`
   left: 0;
   width: 100%;
   overflow: hidden;
+
+  display: flex;
+  justify-content: space-around;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 2rem;
+    padding: 2rem;
+    background: blue;
+  }
+  @media ${(props) => props.theme.breakpoints.md} {
+    margin: 0rem;
+    padding: 0rem;
+    background: red;
+  }
 `;
 
 export const Videowrapper = styled.div`
